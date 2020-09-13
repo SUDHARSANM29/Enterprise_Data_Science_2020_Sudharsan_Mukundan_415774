@@ -123,7 +123,7 @@ def update_figure(country_list,infect_rate_max,infect_rate_min,recover_rate,init
     t_intro_measures=1
     t_hold=1
     t_relax=1
-
+    N0=20
     df_plot=df_input_large
     traces=[]
     for each in country_list:
@@ -139,7 +139,7 @@ def update_figure(country_list,infect_rate_max,infect_rate_min,recover_rate,init
 
                        )
                )
-    N0=np.array(df_plot)[-1]/0.03
+        N0=np.array(df_plot)[-1]/0.03
     if ((len(country_list)>0)&(len(infect_rate_max)>0)&(len(infect_rate_min)>0)&(len(recover_rate)>0)&(len(init_per)>0)&(len(intro_meas)>0)&(len(hold)>0)&(len(relax)>0)):
         infect_rate_max=float(infect_rate_max)
         infect_rate_min=float(infect_rate_min)
