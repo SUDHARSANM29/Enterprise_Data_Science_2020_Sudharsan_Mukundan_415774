@@ -2,7 +2,7 @@ Enterprise Data Science_COVID19
 ==============================
 
 Enterprise Data Science 2020_COVID19
-This project uses the data from John Hopkins data repo to visualise the covid spread on a dashboard developed usin dash and plotly. It also provides an interactive environment to adjust the SIR curve for the COVID spread.
+This project uses the data from John Hopkins data repo to visualise the covid spread on a dashboard developed using dash and plotly. It also provides an interactive environment to adjust the SIR curve for the COVID spread and predict the infection an recovery rates.
 
 Project Organization
 ------------
